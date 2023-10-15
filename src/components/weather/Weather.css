@@ -1,0 +1,98 @@
+.weather-header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(72, 156, 212);
+}
+
+.weather-header-container{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.weather-navigation-list li{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.input-city{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.main-weather{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(201, 202, 193);
+}
+
+.wether-location-info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    color: rgb(64, 15, 110);
+    background-color:lightgreen
+}
+
+.date-span{
+    margin-right: 30px;
+}
+
+.time-map{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(162, 191, 192);
+    font-size: 24px;
+}
+
+.time-map-list{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-map-list li{
+    display: inline-block;
+    width: 12.5%;
+    text-align: center;
+}
+
+.weather-time-list{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.weather-time-list li{
+    display: inline-block;
+    width: 12.5%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.weather-today-item-temperature{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.celsius{
+    width: 30px;
+    height: 34px;
+}

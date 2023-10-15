@@ -5,7 +5,7 @@ const Main = () => {
 
     return (
         <div className="main-wraper">
-            <Header></Header>
+            <Header/>
 
             <main className="main">
                 <Outlet/>

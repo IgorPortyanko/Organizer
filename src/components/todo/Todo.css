@@ -43,10 +43,13 @@
 
 .todo-item{
     max-width: 100%;
-    min-height: 60px;
+    min-height: 50px;
     display: flex;
-    font-size: 24px;
-    padding-top: 30px;
+    
+    padding: 12px;
+    background-color: rgb(184, 179, 179);
+    margin-bottom: 8px;
+    border-radius: 12px;
 }
 
 
@@ -56,20 +59,28 @@
 .todo-item-del{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 .todo-item-text{
     flex: 1 1 auto;
-    border-bottom: solid 1px black;
+    font-size: 24px;
 }
 
 .todo-item-del{
-    border: solid 1px black;
+    border: solid 1px rgb(255, 0, 0);
     margin-left: 6px;
     color: red;
+    border-radius: 50%;
 }
 
 .todo-completed{
     color: green;
     text-decoration: line-through;
+    
+}
+
+.date-create-todo{
+    font-size: 14px;
+    margin-right: 10px;
 }

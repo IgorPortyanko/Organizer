@@ -2,6 +2,7 @@ import { TodoItemIf } from "../models/models"
 import { useDispatch } from "react-redux";
 import { completeTodo, deleteTodo } from "../../store/slices/todoSlice";
 import ClearIcon from '@mui/icons-material/Clear';
+import DateNow from "./DateNow";
 
 interface TodoItemProps {
     task: TodoItemIf;
@@ -22,6 +23,9 @@ const TodoItem: React.FC<TodoItemProps> = ({ task }) => {
     return (
 
         <div className="todo-item">
+            <div className="date-create-todo">
+                <DateNow time = {task.id}/>
+            </div>
             <div className="todo-item-text">
                 <p className={task.complete? 'todo-completed' : ''}>{task.text}</p>
             </div>

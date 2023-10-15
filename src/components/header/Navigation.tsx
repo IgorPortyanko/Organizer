@@ -10,7 +10,7 @@ const Navigation = () => {
                 <li><Link to='/'>Домашня сторінка</Link> </li>
                 <li><Link to='/todo'>Список завдань</Link></li>
                 <li>Нотатки</li>
-                <li>Погода</li>
+                <li><Link to='./weather'>Погода</Link> </li>
             </ul>
         </div>
     )
